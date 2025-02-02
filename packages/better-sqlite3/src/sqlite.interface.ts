@@ -5,5 +5,5 @@ export interface DrizzleBetterSQLiteConfig {
     filename: string | Buffer;
     options?: Database.Options | undefined;
   };
-  config?: DrizzleConfig<any> | undefined;
+  config?: DrizzleConfig<Record<string, unknown>>;
 }

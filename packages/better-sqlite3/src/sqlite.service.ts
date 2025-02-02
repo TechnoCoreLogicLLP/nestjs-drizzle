@@ -9,6 +9,6 @@ export class DrizzleBetterSQLiteService {
       options.sqlite3.filename,
       options.sqlite3.options
     );
-    return drizzle(sqlite, options?.config);
+    return drizzle(sqlite, options.config);
   }
 }

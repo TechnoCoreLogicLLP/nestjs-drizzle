@@ -11,7 +11,7 @@
     "@nestjs/platform-express": "^10.0.2",
     "@planetscale/database": "^1.11.0",
     "axios": "1.7.4",
-    "better-sqlite3": "^9.0.0",
+    "better-sqlite3": "^11.8.1",
     "drizzle-orm": "^0.28.6",
     "mysql2": "^3.6.2",
     "pg": "^8.11.3",
